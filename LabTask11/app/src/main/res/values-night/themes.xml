@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.UserSettingsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/button_text</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/background_end</item>
+    </style>
+
+    <style name="Theme.UserSettingsApp" parent="Base.Theme.UserSettingsApp" />
+</resources>
